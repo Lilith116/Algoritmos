@@ -30,7 +30,6 @@ Algoritmo sin_titulo
 	
 	Escribir "total a pagar", Total_Pagar
 	
-	Escribir "la comision es ", Comision
 
 	
 FinAlgoritmo
