@@ -5,7 +5,7 @@ Algoritmo sin_titulo
 	
 	//Entrada
 	
-	Escribir "Ingrese monto presupustal: "
+	Escribir "Ingrese monto presupuestal: "
 	leer MontoPrincipal
 	
 	//Proceso 

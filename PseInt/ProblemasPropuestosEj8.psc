@@ -18,7 +18,7 @@ Algoritmo sin_titulo
 	
 	Porcentaje3 = p3 * 100 / Montototal
 	
-	//Proceso 
+	//salida
 	
 	Escribir "La inversion de la persona 1 es: ", Porcentaje1
 	Escribir "La inversion de la persona 2 es: ", Porcentaje2

@@ -1,6 +1,6 @@
 Algoritmo sin_titulo
 	
-	//3)	Calcular el nuevo salario de un empleado fiscal si obtuvo un reajuste del 4,5% sobre su salario anterior.
+	//3)Calcular el nuevo salario de un empleado fiscal si obtuvo un reajuste del 4,5% sobre su salario anterior.
 	
 	//Entrada
 	
