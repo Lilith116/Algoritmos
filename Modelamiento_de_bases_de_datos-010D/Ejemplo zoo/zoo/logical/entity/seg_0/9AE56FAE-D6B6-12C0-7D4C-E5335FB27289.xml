@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AE56FAE-D6B6-12C0-7D4C-E5335FB27289" name="Ficha_Especie">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:07:33 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Ficha_Especie" id="A498BF51-41C3-B944-DD41-1F6F6E668014">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:07:57 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="817C60EB-2736-ED95-7E1C-4E932BBE243D">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:12:03 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="8BB10BAD-2C21-CE09-885E-1F5901E0737E">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:17:28 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_Ingreso" id="368E3AA6-DC4A-182A-B8A8-87D05BEA7F41">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:17:42 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_Nacimiento" id="8DF8F27A-41BD-0432-865E-A5237C9DCEC3">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:20:53 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso_Actual" id="B47D7005-ACC4-0092-002D-046E816E2093">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:18:04 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estatura_Actual" id="CEDB4BE2-F5DD-56A0-2220-BE98ECC3BC23">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:19:38 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado_General" id="A05A86E5-BA04-6FED-8B21-8CBC811BC3AC">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:21:17 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E1565A1-1AF5-2B26-1B9F-C8E61B02A094" name="Ficha_Escpecie PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 19:10:54 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A498BF51-41C3-B944-DD41-1F6F6E668014</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

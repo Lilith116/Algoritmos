@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="zoo" id="346948FC-B702-B2F6-EF0E-E2885C6A15BC" version="3.5">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-12 18:45:35 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>346948FC-B702-B2F6-EF0E-E2885C6A15BC</designId>
+</OSDM_Design>

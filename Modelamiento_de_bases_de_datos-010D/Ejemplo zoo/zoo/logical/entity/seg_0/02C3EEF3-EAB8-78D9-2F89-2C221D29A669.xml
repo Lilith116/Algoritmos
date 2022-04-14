@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02C3EEF3-EAB8-78D9-2F89-2C221D29A669" name="Especie_Habitat">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-13 21:09:35 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Especie_Habitat" id="150E1DAD-5E76-ED9E-4929-682C01B91AA1">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-13 21:10:31 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie" id="CF3DEF0E-4532-9C01-326D-214E213BAF80">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-13 21:11:47 UTC</createdTime>
+<generatorID>A5F17843-A691-4C05-3B4E-8FBD42A9A099</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>16149EB5-4F39-B41B-A032-F54943A50BCD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Habitat" id="47D753D5-2EC7-8F84-B5F1-9F6088801752">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-13 21:11:57 UTC</createdTime>
+<generatorID>5556099A-A598-CB40-791C-7D36C46E8081</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>6AEE6B7E-C566-EF6A-C5C5-FD63429DFCC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9707A9C5-5D7A-7263-4419-6540FAA1590A" name="Especie_Habitat PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-13 21:10:43 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>150E1DAD-5E76-ED9E-4929-682C01B91AA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

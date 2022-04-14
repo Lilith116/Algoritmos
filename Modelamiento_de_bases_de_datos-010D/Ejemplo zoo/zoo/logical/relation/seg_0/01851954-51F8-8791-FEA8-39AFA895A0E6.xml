@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="se_Encuentra" directorySegmentName="seg_0" id="01851954-51F8-8791-FEA8-39AFA895A0E6">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-13 20:59:06 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>662ABE9A-869A-0F64-8101-5A16CE5897FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E3316C5-C8CF-4513-8A3A-323B58DC49B2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B789468C-F1A7-4966-F953-0969050A4386</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
