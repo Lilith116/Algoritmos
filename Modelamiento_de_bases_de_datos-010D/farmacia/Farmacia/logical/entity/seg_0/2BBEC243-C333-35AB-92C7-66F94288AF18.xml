@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BBEC243-C333-35AB-92C7-66F94288AF18" name="Trabajador">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:28:13 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut_Trabajador" id="69208244-9273-33F1-A2CA-72EB99B44C71">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:29:39 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="90A6E94F-203F-774E-77A1-A85EAB938390">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:29:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_apellido" id="0F527D5C-4DB2-6A85-6B75-86D60E9E9E59">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:30:08 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo_Apellido" id="8E26641E-6DFC-4DFF-4265-1BDDC6EB2AC3">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:30:26 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="BF3E3432-D868-ED38-BF4E-C0AA77392F76">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:30:46 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="C6AD4D87-5099-771A-B2EA-0CD841CDBEAF">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:34:59 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comuna" id="0C3EFD7A-5540-01AF-9861-BB05DD4CA915">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:35:36 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Provincia" id="DC949CDA-7123-F108-A44E-8B2360DE1120">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:35:45 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="FD54597B-7690-5D2E-6A4D-3D0B1D4E1332">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:35:56 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E603983-33A5-1810-873D-E361B5A1B4BC" name="Trabajador PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:29:54 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69208244-9273-33F1-A2CA-72EB99B44C71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

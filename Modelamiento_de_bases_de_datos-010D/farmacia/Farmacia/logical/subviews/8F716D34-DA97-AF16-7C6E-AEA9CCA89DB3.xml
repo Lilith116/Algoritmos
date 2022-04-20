@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="8F716D34-DA97-AF16-7C6E-AEA9CCA89DB3">
+<createdBy>guill</createdBy>
+<modifiedBy>guill</modifiedBy>
+<createdTime>2022-04-20 15:27:56 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2BBEC243-C333-35AB-92C7-66F94288AF18" otype="Entity" vid="5FA635D5-CD26-D661-CCF4-9CABD1BEAEB4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="78" y="54" width="170" height="167"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="59A459C2-10A7-1ABD-72E5-FA1FA874D726" otype="Entity" vid="935E9DF6-1EF7-7A11-6E53-957E5E96983C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="310" y="56" width="170" height="161"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A3D17710-1E6D-7527-18CA-74E2553A7BC4" otype="Entity" vid="582BBC47-AFC6-E833-FB98-CBAA05B70984">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="108" y="321" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B9CE528A-D529-6FF9-325D-E8F7644DF1A3" otype="Entity" vid="8CFA28A6-1009-D33A-C8B4-69F447F06034">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="583" y="56" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C66A528F-DF4A-B2F3-DE67-929B68339DC6" otype="Entity" vid="41A0E76B-B5DC-B128-29C1-984F9873C3FE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="593" y="195" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>
