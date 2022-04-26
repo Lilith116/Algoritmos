@@ -14,4 +14,97 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_venta" id="4E9B304C-AFB5-3FAF-5127-3ED66BDFC3EF">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:47:47 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_documento" id="CAC0048C-BA04-383C-B328-27B867B19E33">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:48:04 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Venta" id="A7BDDB82-DA29-22FE-E1FE-A025D2477DEF">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:48:23 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Cliente" id="2DF5AB28-2188-ABED-33DA-CC41EC06E1E1">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:49:25 UTC</createdTime>
+<generatorID>8A325448-24A8-444E-D8B6-69DE9A9E40C3</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3A4193C6-C500-5803-8F8E-9BDF609F60A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Trabajador" id="C12C7BCD-04A5-685A-4900-B3F39679CEF1">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:50:27 UTC</createdTime>
+<generatorID>916C0D98-4F39-659E-0A25-6E88F0A37436</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<referedAttribute>69208244-9273-33F1-A2CA-72EB99B44C71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Venta" id="61D0B606-9C2C-C93F-7A1E-20CE8B1612EC">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:55:43 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C59BBB81-E11F-4274-7015-DCDF730962B4" name="Venta PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:48:02 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E9B304C-AFB5-3FAF-5127-3ED66BDFC3EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

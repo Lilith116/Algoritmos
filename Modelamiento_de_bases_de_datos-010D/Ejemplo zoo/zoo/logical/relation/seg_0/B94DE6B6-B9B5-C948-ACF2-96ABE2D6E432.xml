@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Debe_recorrer" directorySegmentName="seg_0" id="B94DE6B6-B9B5-C948-ACF2-96ABE2D6E432">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:34:22 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>732605B0-230E-53D2-804B-236C17E8F2C2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67EA761F-7D99-18CE-5152-ED7ECE46791A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE431D0D-F0DA-457D-DEFF-EAF8BB89F4F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

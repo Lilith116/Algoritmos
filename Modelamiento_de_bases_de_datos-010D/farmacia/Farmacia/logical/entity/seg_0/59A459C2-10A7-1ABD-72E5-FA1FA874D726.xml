@@ -99,6 +99,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Rut_Laboratorio" id="3AFBD4B8-5525-90F7-A025-FF062EEFA6D0">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:43:55 UTC</createdTime>
+<generatorID>73AC30A8-9078-3D57-70FB-779C42E58CE1</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<referedAttribute>7AF20A7D-E1CE-6E62-6DC6-28A7E5261D3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8B6E581A-3767-479B-1AD7-8405AC375E8C" name="Producto PK">

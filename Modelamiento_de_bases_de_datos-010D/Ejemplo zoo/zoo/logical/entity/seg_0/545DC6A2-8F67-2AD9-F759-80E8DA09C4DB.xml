@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="545DC6A2-8F67-2AD9-F759-80E8DA09C4DB" name="Visita">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:14:20 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Visita" id="6714AFB0-9683-8DBA-0FD7-DB9B69D8EDE9">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:27:18 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Visita" id="6AD93CB0-31DA-33F4-1FBF-E5FB9958E1EF">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:27:55 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razon_Interes" id="ACF930E1-38B5-F773-84DF-9D109650B869">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:28:45 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Visitante" id="BA023395-2827-090D-7F51-4B8EE7015AFA">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:30:24 UTC</createdTime>
+<generatorID>8A6BC4BB-F840-2216-15A4-8EBED9D81A2D</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>E8552272-8F17-4645-1ED6-BA2114C7123B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tour" id="9603CAC8-C9EE-2738-E2C1-4B335B07497F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:31:31 UTC</createdTime>
+<generatorID>5D16C781-C2B4-5583-6375-152E5DCBBB5B</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>0255D890-4AC5-C03A-AE09-A0B1ED43ADC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C91C9354-52D5-4179-F58A-2F30493BDA7A" name="Visita PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:27:54 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6714AFB0-9683-8DBA-0FD7-DB9B69D8EDE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E015857-48B0-08F7-0201-B1786851CACA" name="Especie_Cuidador">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:20:44 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Especie_Cuidador" id="B0792DE8-9E86-4C60-C6D5-AC2AA860695D">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:21:17 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_inicio" id="B3630A85-678E-B95C-59D2-125C0D107FA6">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:22:27 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_termino" id="79EA40C7-42FF-E0B6-6A11-3305CA1F8727">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:22:45 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bitacora" id="62A3EFA5-DB68-CCA8-6FA0-351FFD82479B">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:22:59 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Ficha_Especie" id="987DE506-6517-AA0D-1EB7-4028E86153FA">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:25:19 UTC</createdTime>
+<generatorID>022844B4-9A64-6D0D-C15A-81E6E5507ACB</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>A498BF51-41C3-B944-DD41-1F6F6E668014</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Cuidador" id="76C60584-9702-E2DD-651C-28877C10B214">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:25:43 UTC</createdTime>
+<generatorID>0B3D4FCC-1F01-A9B4-0603-4B45333D8F0C</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>FF8E1612-E327-D0DD-B75B-46FB0229502D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CFBDDCE-2341-B0E5-DF8E-59C208C919A4" name="Especie_Cuidador PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:21:33 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0792DE8-9E86-4C60-C6D5-AC2AA860695D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

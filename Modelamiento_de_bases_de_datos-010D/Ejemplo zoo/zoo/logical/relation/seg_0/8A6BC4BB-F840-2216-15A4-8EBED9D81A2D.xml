@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Se_Registra" directorySegmentName="seg_0" id="8A6BC4BB-F840-2216-15A4-8EBED9D81A2D">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:30:24 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>1EB74C65-EA9B-FB80-4A0E-455680506513</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1FE1A913-85E9-7CDF-41C9-8413D811CF13</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>545DC6A2-8F67-2AD9-F759-80E8DA09C4DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

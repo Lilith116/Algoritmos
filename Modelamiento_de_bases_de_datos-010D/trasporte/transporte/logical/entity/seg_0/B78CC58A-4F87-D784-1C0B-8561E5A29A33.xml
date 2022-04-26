@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B78CC58A-4F87-D784-1C0B-8561E5A29A33" name="Subsidio">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:11:43 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_subsidio" id="15963638-3A4B-3AF6-E84C-4D124C9C09D6">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:11:53 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="64C8D8EE-0690-4C03-0956-470DE81038F8">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:12:09 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_contrato" id="D6C2A4D5-B0D5-7009-F9DE-2A24298AB3F2">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:16:14 UTC</createdTime>
+<generatorID>B110BCDB-406D-0E08-94C9-635AB0638ED2</generatorID>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<referedAttribute>ED0384BA-9B77-DF23-2508-78F966AC4A64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E856EC2A-ACBA-5B77-26A4-8371F35385CC" name="Subsidio PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:20:03 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6C2A4D5-B0D5-7009-F9DE-2A24298AB3F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

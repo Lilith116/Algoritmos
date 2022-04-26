@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CA012C2-0AEA-9E63-6EC9-0F93DD285CE8" name="Detalle_Venta">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:52:05 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Detalle_Venta" id="23FEB1E9-AE86-8DBD-72C1-18F75CB202B4">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:52:36 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_venta" id="DCB85A49-C7FE-B2C4-A063-E2006F337617">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:52:57 UTC</createdTime>
+<generatorID>F32E0483-D548-7BDF-EBE5-9AC997D93602</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<referedAttribute>4E9B304C-AFB5-3FAF-5127-3ED66BDFC3EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Producto" id="4EF7C5FC-D6FB-4F3A-435D-8CC3BBEBDB17">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:53:10 UTC</createdTime>
+<generatorID>3714FD88-A3A9-D034-A739-010EF3EE5C28</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<referedAttribute>7BF408EE-F196-0096-BBE3-61E304928932</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="21828747-0353-CA85-0F75-D374A80DA6E0">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:54:14 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio_Venta" id="0397E6D6-56C6-C23E-232F-70A61444E812">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:54:28 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subtotal" id="A7BF3F40-4011-8CD6-218F-698E46180228">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:55:12 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9334D778-E5F9-E999-BC31-812EC2EA81CE" name="Detalle_Venta PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:52:52 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23FEB1E9-AE86-8DBD-72C1-18F75CB202B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

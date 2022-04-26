@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Puede_Guiar" directorySegmentName="seg_0" id="C9CC87A6-0330-5CA2-0E83-A0C6C903BDBE">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:39:57 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>36211CC5-D698-208D-0901-E7A9996C56DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72614A61-447C-7846-A67B-CBE38A5AACAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9C617406-689B-C3D0-4621-2F322A2EDEA1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

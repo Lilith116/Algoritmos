@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Es_recorrible" directorySegmentName="seg_0" id="25827352-03A9-07AC-8D91-E63B569DB255">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:34:05 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>7D2AE2C7-0659-A4B5-ED1C-CBC4A96B004F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96BFE99C-79E9-94FC-73BC-128789A552EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE431D0D-F0DA-457D-DEFF-EAF8BB89F4F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

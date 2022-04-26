@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Queda_a_cargo" directorySegmentName="seg_0" id="0B3D4FCC-1F01-A9B4-0603-4B45333D8F0C">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:25:43 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>602E41C8-EB30-7132-BCE3-F0464D74EDC3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97824233-A73F-D148-957E-7DCCFEB0884E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E015857-48B0-08F7-0201-B1786851CACA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

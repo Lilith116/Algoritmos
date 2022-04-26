@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3E84F8A-AAE8-4FB6-445B-D33414B83336" name="recorrido">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:12:51 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_recorrido" id="3E8114DA-2979-BD24-4803-A9E4136488C8">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:13:00 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="D8B77F19-5380-F9C5-CB20-C25174FC43AA">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:13:13 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asignacion" id="A39E2829-64E7-5C91-1CB3-035C5BE27795">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:13:21 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porc_asignacion" id="AB73998C-D6ED-CBA7-2862-2C16F24A3EC6">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:13:30 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_origen" id="E5DFC6D5-C321-5CE6-732C-5C4C7C09C37F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:14:19 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_destino" id="28959935-D734-BEFF-0E99-5B6C9564B5AA">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:14:40 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC75C517-F890-A4C1-B930-1CF1D83DB66D" name="recorrido PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:13:12 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E8114DA-2979-BD24-4803-A9E4136488C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

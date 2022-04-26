@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E035EC0-7B4C-9A18-BD3C-C3F7AE007341" name="Detalle_oferta">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 20:53:53 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Detalle_Oferta" id="653B5650-D1B2-220D-577A-198E7D30DCD4">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 20:54:14 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Oferta" id="209763D2-459F-164C-8A38-37FCEA0CBE9F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 20:55:15 UTC</createdTime>
+<generatorID>3D1C68CB-DB6B-B88A-2FDD-82B5AE5DBF18</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<referedAttribute>2DEDE4AF-77F9-4A22-6A4B-A6810F949D48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Producto" id="1964EBDD-711A-D996-5148-816FB2323F9B">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 20:55:24 UTC</createdTime>
+<generatorID>5E89B4AF-7AD9-E082-5F6A-E5E30737854E</generatorID>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<referedAttribute>7BF408EE-F196-0096-BBE3-61E304928932</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28A98057-2DAD-DA76-B13B-E3ECB7CEB027" name="Detalle_oferta PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 20:54:29 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>653B5650-D1B2-220D-577A-198E7D30DCD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

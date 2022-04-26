@@ -115,6 +115,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Id_zona" id="A5630E95-0E93-25EF-0D00-22265A5BB7F2">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 18:51:22 UTC</createdTime>
+<generatorID>92972275-7FE9-C9C1-5F11-50BCB902D0B8</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>31B920D7-350B-023A-77BE-F2B079B0CD99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="21818614-D41E-57B7-BD22-2F1599A4DE26" name="Especie PK">

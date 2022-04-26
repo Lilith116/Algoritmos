@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E656BAB7-B31B-0330-30EA-7795C0A352AA" name="Chofer">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:47:53 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut_Chofer" id="356F63CE-5240-3201-D5B1-D73FDB660876">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:48:04 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_Documento" id="7CBC6F08-E280-ABDF-10DB-4EC2730494AC">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:48:27 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="AC4BBF38-9F20-2275-37D5-72C79B020B2D">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:01:42 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer_apellido" id="13D24F69-AD26-6DF7-9DAF-8A7BAC11E6EB">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:01:55 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_apellido" id="9FB68ED1-D587-6581-5C5B-225C60901696">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:02:46 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="607028C3-C498-B5C3-7D2A-E18721EF22AD">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:03:00 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="72386841-2188-C82B-21B0-AD1747408986">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:52:44 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="BBCC44C2-C0A6-3A59-583B-44F57B3E4C7E">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:03:12 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_contrato" id="DE6073C1-3FDB-A234-8907-044AFAC8886F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:05:34 UTC</createdTime>
+<generatorID>27FCA694-173F-9E53-9F51-E5CB2458114B</generatorID>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<referedAttribute>ED0384BA-9B77-DF23-2508-78F966AC4A64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5815F327-4578-0566-94BB-0AAF09EEE291" name="Chofer PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:48:20 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>356F63CE-5240-3201-D5B1-D73FDB660876</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D54E2696-963C-A253-DA8D-74F947D4F3C7" name="UQ_NRO_DOCUMENTOv1">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:54:56 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<newElementsIDs>7CBC6F08-E280-ABDF-10DB-4EC2730494AC</newElementsIDs>
+<usedAttributes>
+<attributeRef>7CBC6F08-E280-ABDF-10DB-4EC2730494AC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FEEE3A43-2F53-4375-D1D2-09E0C6650B48" name="UQ_EMAIL">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 12:55:28 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<newElementsIDs>72386841-2188-C82B-21B0-AD1747408986</newElementsIDs>
+<usedAttributes>
+<attributeRef>72386841-2188-C82B-21B0-AD1747408986</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="se_Inscriben" directorySegmentName="seg_0" id="5D16C781-C2B4-5583-6375-152E5DCBBB5B">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 14:31:31 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<sourcePk>732605B0-230E-53D2-804B-236C17E8F2C2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67EA761F-7D99-18CE-5152-ED7ECE46791A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>545DC6A2-8F67-2AD9-F759-80E8DA09C4DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

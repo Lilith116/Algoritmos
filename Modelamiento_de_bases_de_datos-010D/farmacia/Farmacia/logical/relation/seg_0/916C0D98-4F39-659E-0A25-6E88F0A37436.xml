@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realiza_Venta" directorySegmentName="seg_0" id="916C0D98-4F39-659E-0A25-6E88F0A37436">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-20 15:50:27 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="018C2B77-4470-4F28-EF4A-2CED364BAEE0" value="true"/>
+</engineerTo>
+<sourcePk>0E603983-33A5-1810-873D-E361B5A1B4BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BBEC243-C333-35AB-92C7-66F94288AF18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9CE528A-D529-6FF9-325D-E8F7644DF1A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

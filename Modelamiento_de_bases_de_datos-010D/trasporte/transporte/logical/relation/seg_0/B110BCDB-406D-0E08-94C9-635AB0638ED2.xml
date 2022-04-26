@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="B110BCDB-406D-0E08-94C9-635AB0638ED2">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-25 13:16:14 UTC</createdTime>
+<ownerDesignName>transporte</ownerDesignName>
+<engineerTo>
+<item key="C0F9D199-C969-16E6-5543-F3806A855B41" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>F72A1B56-3FDB-2009-3D8B-74487C19799D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C70133C4-FABC-9FE5-3524-B8804CF85DF3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B78CC58A-4F87-D784-1C0B-8561E5A29A33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

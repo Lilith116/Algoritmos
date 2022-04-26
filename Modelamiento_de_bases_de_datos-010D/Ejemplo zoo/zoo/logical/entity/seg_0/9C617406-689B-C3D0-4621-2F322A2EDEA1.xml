@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C617406-689B-C3D0-4621-2F322A2EDEA1" name="Tour_Guia">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:38:16 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Tour_Guia" id="5A4CA5DE-CC36-6218-4527-24A06AF24A47">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:38:32 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tour" id="A6B23D48-F19D-9A3D-F580-DFF5B7CD256F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:39:41 UTC</createdTime>
+<generatorID>37CB44E8-DB56-25AE-59D3-C347A55BCE83</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>0255D890-4AC5-C03A-AE09-A0B1ED43ADC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Guia" id="EFE542AF-D802-E3C2-8FD5-88138B707C38">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:39:57 UTC</createdTime>
+<generatorID>C9CC87A6-0330-5CA2-0E83-A0C6C903BDBE</generatorID>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<referedAttribute>22B2A6FB-6904-FFBD-62A1-03B6227BF408</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AFFECD4-B010-6D63-A0F8-D70074CB603A" name="Tour_Guia PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-19 19:38:42 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<engineerTo>
+<item key="D01DB3FA-899F-69A6-A15F-7D1A3852CCDF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A4CA5DE-CC36-6218-4527-24A06AF24A47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
