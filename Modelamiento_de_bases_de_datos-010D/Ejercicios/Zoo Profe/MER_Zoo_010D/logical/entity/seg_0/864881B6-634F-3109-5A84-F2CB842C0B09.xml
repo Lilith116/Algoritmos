@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="864881B6-634F-3109-5A84-F2CB842C0B09" name="TOUR">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-06 21:16:49 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tour" id="5CD20BE9-3CA2-DA07-D67A-2EB6EF3168EC">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:30:17 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D1BEAEBF-ECC0-CC65-EC7B-82DC965167BD">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:30:39 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio" id="286C9D21-28B7-1393-CF0A-1CEF796C4DC1">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:30:46 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="1E46F9CD-6EB9-626F-38E5-4DF10BA25E95">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:31:09 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_max_inscritos" id="0920AFF5-2E2B-92D0-0C13-3D4457480F11">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:31:20 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FEA7CCF-D586-F5C8-F566-5F232CCB4F93" name="TOUR PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:31:07 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CD20BE9-3CA2-DA07-D67A-2EB6EF3168EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

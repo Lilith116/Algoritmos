@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2A60EE1-A451-D433-ADE7-E7C66BFE7696" name="Empleado">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_Empleado" id="A8CC68CA-831D-A470-6F3A-1A45740FA2DD">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="69F45AF6-D29A-20B7-5E98-321D62B4702D">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_apellido" id="5AAEFA8F-6C83-70E9-BEFF-6BEB8FBC4F42">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_apellido" id="24B86960-6E8C-765D-FB04-A6C5D20CC457">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="9C498C46-BF3E-0861-7C02-AAD277F056E2">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="04F24157-34CB-634E-2DE6-780DD14EEA61">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provincia" id="18AD4107-58B4-848F-157B-BE27D0965F25">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region" id="32F3634C-FB22-BA65-E475-5097FD95A008">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fono" id="2C2F451A-ADE1-36C0-4E1C-7D07CA8BB165">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:00 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2519BF80-30DE-1116-173B-969D10B33045" name="Empleado PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:17:31 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8CC68CA-831D-A470-6F3A-1A45740FA2DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F1A3E31-C4E3-7BA8-577B-A5F9192DDC51" name="Sucursal">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:37:48 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Sucursal" id="EC5E3529-A4A8-0A26-861B-58F0E24779A9">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:37:55 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD4F325A-7765-D922-80C6-A9A66210D28E" name="Sucursal PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:39:09 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC5E3529-A4A8-0A26-861B-58F0E24779A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

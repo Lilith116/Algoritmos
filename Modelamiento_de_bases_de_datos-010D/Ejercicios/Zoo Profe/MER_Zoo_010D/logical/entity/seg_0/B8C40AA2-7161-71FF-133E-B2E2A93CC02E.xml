@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8C40AA2-7161-71FF-133E-B2E2A93CC02E" name="FICHA_ESPECIE">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-06 21:16:28 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ficha_especie" id="9D3EA050-BC98-0CAC-91AB-973B42BEFB58">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:07:58 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1C3A4CC0-29B3-1B70-83CC-C5A96A693EA2">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:12:03 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="1F82B96C-0290-3C9E-9793-2EAAB6071BBF">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:17:27 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="9B5E5AB3-58E2-3564-7F40-0DB66E308615">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:17:40 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="62B45DE9-7006-8F48-ACE4-9D42B4CE8DBE">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:19:53 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_actual" id="8A763E51-F8EA-89FE-A7A1-8A8418F70043">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:19:34 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estatura_actual" id="5EA2AA94-D5F2-4A63-DC31-EF5F0329D7CB">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:19:41 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_general" id="2DF8C13F-8184-9F44-78CE-2F9420060044">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:23:20 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie" id="CB5CB319-4EC4-B0FC-9168-1023AA7CFF11">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:37:09 UTC</createdTime>
+<generatorID>62810DBE-B86A-8155-EBD9-29EE12DAB976</generatorID>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<referedAttribute>6C529DF1-31C2-4459-B5A1-EB0B4CED550C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55CC9F88-7339-5DC1-D99E-72AA054DD916" name="FICHA_ESPECIE PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-12 19:10:57 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D3EA050-BC98-0CAC-91AB-973B42BEFB58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

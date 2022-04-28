@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vive_en" directorySegmentName="seg_0" id="4AF98696-3840-B8FC-4832-7623335E7EC2">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:34:51 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<sourcePk>65942A13-3A38-726C-673F-9C5B5FC67E14</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6AB6C41-EEB3-B02A-20F9-C689733034DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7823EA97-E8CE-9DFF-66E5-047772608527</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0DEED6AF-3A50-4B0F-1FBE-67FD9F807BD0">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:51:43 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

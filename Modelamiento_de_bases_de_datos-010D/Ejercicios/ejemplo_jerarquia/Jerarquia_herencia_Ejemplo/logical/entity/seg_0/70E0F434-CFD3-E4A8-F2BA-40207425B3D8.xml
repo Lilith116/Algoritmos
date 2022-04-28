@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70E0F434-CFD3-E4A8-F2BA-40207425B3D8" name="Persona">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:00:20 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut_Persona" id="78A4C2CF-912D-73C6-EC68-DB2D6F749213">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:00:27 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A3A687FF-1D85-7231-30F7-9341170FBE5F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:00:40 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="1843B264-7F79-B008-6B26-366097FCDF62">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:00:49 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Nacimiento" id="90A6D29A-0895-EB49-C919-4F728E006C54">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:01:07 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="F0DACB9A-5429-36BF-BCD3-39CA4A6AC75B">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:01:24 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5973B28C-306C-1B4C-ACA5-5CFC41E05C36" name="Entity_13 PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:00:38 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78A4C2CF-912D-73C6-EC68-DB2D6F749213</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

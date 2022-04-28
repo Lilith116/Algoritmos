@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="es_recorrida" directorySegmentName="seg_0" id="8DD9C58D-6499-0FA2-700F-62A995362E59">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:34:01 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<sourcePk>252E8607-8EA6-C7F0-A25C-38BB6990ADEE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5954DE1-F843-A234-1106-C035C9372689</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>40DC9812-7E26-5411-6DAE-0EE94829CA4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

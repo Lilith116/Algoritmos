@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D211F22-141A-A54E-EF12-F1BC6F2C38FE" name="Empresa">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:01:50 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut_Empresa" id="7809A786-B5D4-86B2-41AD-3683E26CCC39">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:01:59 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razon_social" id="5335694E-E84B-E2BA-CC62-64432D1AD564">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:02:09 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="E5A4B5B3-86D2-4B2C-FD0D-3B0B2F800480">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:02:39 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fono" id="59550AD7-782A-2BAB-27A8-C9A4C4FEED40">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:02:48 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDFAC6B9-7C63-B469-1B64-1FC73FEBE4DF" name="a PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:02:08 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7809A786-B5D4-86B2-41AD-3683E26CCC39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

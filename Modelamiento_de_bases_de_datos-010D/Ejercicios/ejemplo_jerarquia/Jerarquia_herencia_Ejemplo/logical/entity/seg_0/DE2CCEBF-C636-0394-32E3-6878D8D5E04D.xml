@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE2CCEBF-C636-0394-32E3-6878D8D5E04D" name="Cliente">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:52:48 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>7823EA97-E8CE-9DFF-66E5-047772608527</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="renta" id="BB46B2E3-D37E-0ACF-93DB-8BFBD7FF7A5A">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:12:32 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

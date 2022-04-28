@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="612002EA-1970-6233-70AB-14966D8B045F" name="Cuenta_Bancaria">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:57:44 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nro_Cuenta" id="FF7128EA-9F25-34E0-439F-56FB503E80C9">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:58:50 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Apertura" id="952052B4-5A6F-0A3E-67EF-389BF38668AC">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:59:02 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Saldo" id="B2CA4B34-7F17-2429-7AEF-3519628F717F">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:59:13 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_Cliente" id="D54B1B3F-0C99-3DDF-0A66-7BF7E58493EF">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:21:46 UTC</createdTime>
+<generatorID>059843E0-AF91-8895-788E-EFD889440091</generatorID>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<referedAttribute>4EFA3711-F1A8-5D09-8F78-15B95260E06C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_Ejecutivo" id="8DF690E4-FE26-662E-8D42-063FE5165239">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:24:12 UTC</createdTime>
+<generatorID>75719B8C-0AF0-16DC-ED0A-EA06ADCBFBFB</generatorID>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<referedAttribute>4EFA3711-F1A8-5D09-8F78-15B95260E06C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="352B0E2F-E510-E17C-F98A-5A338438D32A" name="Cuenta_Bancaria PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:59:01 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF7128EA-9F25-34E0-439F-56FB503E80C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

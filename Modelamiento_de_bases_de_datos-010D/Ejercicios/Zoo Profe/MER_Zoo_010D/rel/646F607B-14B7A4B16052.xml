@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="646F607B-A239-728E-92D5-14B7A4B16052" mainViewID="BE9F5703-DC92-C177-C14E-13DF8AB91DAD">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-06 21:06:55 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

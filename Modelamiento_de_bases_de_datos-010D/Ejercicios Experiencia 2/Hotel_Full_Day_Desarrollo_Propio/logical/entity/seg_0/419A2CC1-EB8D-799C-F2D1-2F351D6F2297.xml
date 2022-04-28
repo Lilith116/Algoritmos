@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="419A2CC1-EB8D-799C-F2D1-2F351D6F2297" name="Titular_de_la_Reserva">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:01:00 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero_de_Documento" id="542E829A-7040-7448-0A98-010D6483A35D">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:01:25 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F9A433CA-4822-4D40-BE82-D389B69C5E54">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:01:57 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidad" id="1DE1ED37-F065-7136-6DC6-81612BB4B1F5">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:02:05 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_de_Documento" id="2155184F-3813-6482-2DBD-3B3C2B8B1CB3">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:02:15 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_Nacimiento" id="2CE5B7F6-2685-922C-9420-B291BB05A0A7">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:02:32 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ocupacion" id="404A2944-42B9-7A6D-37ED-FEC662DB0DB8">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:03:01 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="12929FE6-28BC-AEE8-6750-B599D11BA8B5">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:03:19 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="92F04817-7C10-2D10-D1FB-3A6BD3374C19">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:03:30 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8289669-6A54-631B-5EE2-BD27A4DFE219" name="Titular_de_la_Reserva PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:01:56 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>542E829A-7040-7448-0A98-010D6483A35D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

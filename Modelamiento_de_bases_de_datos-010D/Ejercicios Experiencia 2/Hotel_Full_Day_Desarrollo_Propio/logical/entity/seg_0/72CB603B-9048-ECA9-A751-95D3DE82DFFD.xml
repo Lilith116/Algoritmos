@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72CB603B-9048-ECA9-A751-95D3DE82DFFD" name="Acompañantes">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:03:50 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Documento" id="A7AE33BA-5451-ACDA-179B-D7314C1318B4">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:04:05 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres_Completos" id="F73E15AD-8642-B229-4964-0563DF2033A5">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:04:17 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidad" id="B411F42E-50E1-3745-1310-83C1C0E8D741">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:04:42 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_Nacimiento" id="555C5969-07DA-B1CD-FDA6-7A3DCA16D84E">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:04:51 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12584AF4-E2F9-F192-FC00-3638BF2ADA31" name="Acompañantes PK">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:04:17 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7AE33BA-5451-ACDA-179B-D7314C1318B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

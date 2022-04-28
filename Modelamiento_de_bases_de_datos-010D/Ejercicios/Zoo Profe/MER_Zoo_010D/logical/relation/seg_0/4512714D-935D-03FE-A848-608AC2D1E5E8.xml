@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="esta_cargo" directorySegmentName="seg_0" id="4512714D-935D-03FE-A848-608AC2D1E5E8">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:24:32 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<sourcePk>2519BF80-30DE-1116-173B-969D10B33045</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC415050-F6A6-E276-B0F7-3106D02C0ED4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>380D3A3A-23D2-E7DF-47C7-744F252E237C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

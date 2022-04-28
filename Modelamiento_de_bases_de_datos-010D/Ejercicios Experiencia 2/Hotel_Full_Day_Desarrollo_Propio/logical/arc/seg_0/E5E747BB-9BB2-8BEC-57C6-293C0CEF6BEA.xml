@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="E5E747BB-9BB2-8BEC-57C6-293C0CEF6BEA" name="Arc_1">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:19:38 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<entity>BACB72F2-3C78-E34B-9878-EA0D21C398DF</entity>
+<relations>
+<relationID>0F2C1800-D9D9-8708-D5A9-A30AB85AD30A</relationID>
+<relationID>A29F755B-62FE-14C6-8AE2-3E3C00F561B4</relationID>
+<relationID>0CA2B7EE-E9D3-62C4-0B60-07F1B219CC44</relationID>
+<relationID>8AB23AF6-885F-B3BE-CF37-8D0322D3E867</relationID>
+</relations>
+</Arc>

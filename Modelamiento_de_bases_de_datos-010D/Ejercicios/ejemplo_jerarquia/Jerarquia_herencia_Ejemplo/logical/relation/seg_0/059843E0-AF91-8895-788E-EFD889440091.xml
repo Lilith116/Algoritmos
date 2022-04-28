@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contrata" directorySegmentName="seg_0" id="059843E0-AF91-8895-788E-EFD889440091">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:21:46 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<sourcePk>51491E7D-C7DF-6B75-6FE1-16316E0F8A54</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DE2CCEBF-C636-0394-32E3-6878D8D5E04D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>612002EA-1970-6233-70AB-14966D8B045F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

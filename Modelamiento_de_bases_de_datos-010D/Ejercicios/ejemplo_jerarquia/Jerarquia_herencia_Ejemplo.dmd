@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Jerarquia_herencia_Ejemplo" id="61B9DC6F-A1C6-3919-217C-59D77275C9D8" version="3.5">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:51:43 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>61B9DC6F-A1C6-3919-217C-59D77275C9D8</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Abre_Cuenta" directorySegmentName="seg_0" id="75719B8C-0AF0-16DC-ED0A-EA06ADCBFBFB">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:24:12 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<sourcePk>51491E7D-C7DF-6B75-6FE1-16316E0F8A54</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C398531-A7C9-84DE-F53E-89F8757CB562</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>612002EA-1970-6233-70AB-14966D8B045F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

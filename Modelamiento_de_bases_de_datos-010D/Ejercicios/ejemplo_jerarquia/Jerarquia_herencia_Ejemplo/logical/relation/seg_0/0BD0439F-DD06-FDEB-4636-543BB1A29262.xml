@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Firmav1" directorySegmentName="seg_0" id="0BD0439F-DD06-FDEB-4636-543BB1A29262">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:04:25 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<sourcePk>FDFAC6B9-7C63-B469-1B64-1FC73FEBE4DF</sourcePk>
+<arc>FA39464A-8C86-6049-F16E-98B83A66A150</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D211F22-141A-A54E-EF12-F1BC6F2C38FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7EE1F7B-2855-6A92-B064-48C2E6D1B7DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Hotel_Full_Day_Desarrollo_Profesor" id="409ABB81-4C33-63CA-78D6-3388F0D092A7" version="3.5">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:24:20 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Profesor</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>409ABB81-4C33-63CA-78D6-3388F0D092A7</designId>
+</OSDM_Design>

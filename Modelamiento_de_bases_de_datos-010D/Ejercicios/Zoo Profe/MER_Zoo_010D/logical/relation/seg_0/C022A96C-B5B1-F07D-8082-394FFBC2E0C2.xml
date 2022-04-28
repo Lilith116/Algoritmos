@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="se_inscriben" directorySegmentName="seg_0" id="C022A96C-B5B1-F07D-8082-394FFBC2E0C2">
+<createdBy>chris</createdBy>
+<createdTime>2022-04-20 14:31:30 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<sourcePk>7FEA7CCF-D586-F5C8-F566-5F232CCB4F93</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>864881B6-634F-3109-5A84-F2CB842C0B09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89F6A72A-1184-67DA-B100-81C7D2D81285</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

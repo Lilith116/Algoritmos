@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="A29F755B-62FE-14C6-8AE2-3E3C00F561B4">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-28 13:16:46 UTC</createdTime>
+<ownerDesignName>Hotel_Full_Day_Desarrollo_Propio</ownerDesignName>
+<engineerTo>
+<item key="73323EA5-47B8-CDCA-6575-719E2CFCE90C" value="true"/>
+</engineerTo>
+<sourcePk>A88DDF21-4154-C9FD-31F9-7B95576A820B</sourcePk>
+<targetPk>AF889229-8EDA-E4B0-1725-45EFE2991290</targetPk>
+<arc>E5E747BB-9BB2-8BEC-57C6-293C0CEF6BEA</arc>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92E9E8DE-3D86-0C75-81C0-89CA17409679</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BACB72F2-3C78-E34B-9878-EA0D21C398DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

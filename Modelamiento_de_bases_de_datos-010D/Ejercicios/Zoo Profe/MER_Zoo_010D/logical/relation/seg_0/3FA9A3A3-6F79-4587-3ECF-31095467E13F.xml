@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registra" directorySegmentName="seg_0" id="3FA9A3A3-6F79-4587-3ECF-31095467E13F">
+<createdBy>chris</createdBy>
+<createdTime>2022-04-20 14:30:25 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<sourcePk>5E0859AB-9171-DE52-C05D-166BFCF3F12E</sourcePk>
+<arc>38B5E49F-D1C6-E89E-2E64-AD6A1377C0F8</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FA64ACD-5815-B809-C0B7-7025A7D012B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89F6A72A-1184-67DA-B100-81C7D2D81285</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

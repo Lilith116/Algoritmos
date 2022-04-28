@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pueden_convivir" directorySegmentName="seg_0" id="2A0EA59D-B7C7-9106-C27A-A3C6F1DC11C7">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 18:51:40 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<sourcePk>252E8607-8EA6-C7F0-A25C-38BB6990ADEE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5954DE1-F843-A234-1106-C035C9372689</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05A10504-0713-76D5-542E-B4F5F2D84875</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DD75EDFB-F5D9-D224-07A3-864FB39E5D58" mainViewID="49DB493C-7A36-9355-5AE1-6EAD5A6829AB">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 12:51:43 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

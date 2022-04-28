@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40DC9812-7E26-5411-6DAE-0EE94829CA4E" name="ZONA_TOUR">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:33:06 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_zona_tour" id="8FC0DD0F-763C-7E3F-4708-51E572BF04AC">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:33:42 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zona" id="56C6FDE7-5052-D9A5-1934-E8C414422376">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:34:01 UTC</createdTime>
+<generatorID>8DD9C58D-6499-0FA2-700F-62A995362E59</generatorID>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<referedAttribute>16BD12D7-E186-CF37-DAF5-8301070C57CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tour" id="D94BBCF8-03E5-60FE-3689-9B49572BD77D">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:34:18 UTC</createdTime>
+<generatorID>8D66E61F-92D1-D08E-CC84-79E30FB47D33</generatorID>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<referedAttribute>5CD20BE9-3CA2-DA07-D67A-2EB6EF3168EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDAD69B6-B2BF-6FB1-E90C-B4235E3C1345" name="ZONA_TOUR PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2022-04-19 19:33:52 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FC0DD0F-763C-7E3F-4708-51E572BF04AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

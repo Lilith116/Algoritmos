@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="38B5E49F-D1C6-E89E-2E64-AD6A1377C0F8" name="Arc_2">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 19:31:09 UTC</createdTime>
+<ownerDesignName>MER_Zoo_010D</ownerDesignName>
+<engineerTo>
+<item key="646F607B-A239-728E-92D5-14B7A4B16052" value="true"/>
+</engineerTo>
+<entity>89F6A72A-1184-67DA-B100-81C7D2D81285</entity>
+<relations>
+<relationID>A416A817-D69F-6607-CA49-73DA7CDFC18B</relationID>
+<relationID>3FA9A3A3-6F79-4587-3ECF-31095467E13F</relationID>
+</relations>
+</Arc>

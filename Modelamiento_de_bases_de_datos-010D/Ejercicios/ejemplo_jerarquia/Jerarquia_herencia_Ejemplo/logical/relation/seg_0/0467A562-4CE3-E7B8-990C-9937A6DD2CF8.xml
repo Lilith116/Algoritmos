@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="posee_comunas" directorySegmentName="seg_0" id="0467A562-4CE3-E7B8-990C-9937A6DD2CF8">
+<createdBy>guill</createdBy>
+<createdTime>2022-04-26 13:34:31 UTC</createdTime>
+<ownerDesignName>Jerarquia_herencia_Ejemplo</ownerDesignName>
+<engineerTo>
+<item key="3F536DD8-D330-C60F-38BE-6C799F680865" value="true"/>
+</engineerTo>
+<sourcePk>7852DBB7-433F-8DA1-30D1-E47400741660</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>235B6E1C-EEC0-99D1-D428-ACDB3C1682CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D6AB6C41-EEB3-B02A-20F9-C689733034DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

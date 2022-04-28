@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="DD326508-F492-C6DE-7EF2-2C61E8CFF003">
+<createdBy>guill</createdBy>
+<modifiedBy>guill</modifiedBy>
+<createdTime>2022-04-28 13:26:47 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="433324DC-6B04-C7C8-CACB-7B5D2CEAC5C0" otype="Note" vid="730B875E-2FEA-A3DF-61FC-16762A72043B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="4" y="4" width="335" height="849"/>
+<comment>Entidades
+RESERVA
+nro_Registro
+fecha_ingreso
+fecha_egreso
+cantidad_noches
+cantidad_huespedes
+Tipo_Habitacion
+Numero_habitacion
+
+TITULAR - ACOMPAÑANTE = HUESPED (SuperEntidad)
+Nombre
+Nacionalidad
+tipo_documento
+numero_documento
+fecha_nacimiento
+ocupacion
+Direccion
+comuna
+Estado
+provincia
+Pais
+codigo_postal
+fono
+email
+
+FORMA_PAGO
+tipo_pago
+
+EMPLEADO
+rut
+nombre
+direccion
+fecha_nacimiento
+cargo
+email
+</comment>
+</OView>
+</objectViews>
+</Diagram>
